@@ -3,7 +3,7 @@
 The two models were trained from the main folder by running the commands: 
 
     ./scripts/train_post.sh
-    ./scripts/train_pre.sh. 
+    ./scripts/train_pre.sh
 
 The two training configurations can be found in the configs folder.
 
