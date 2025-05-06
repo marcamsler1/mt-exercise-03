@@ -1,3 +1,20 @@
+# Our changes to the repo
+
+The two models were trained from the main folder by running the commands: 
+
+    ./scripts/train_post.sh
+    ./scripts/train_pre.sh. 
+
+The two training configurations can be found in the configs folder.
+
+We also created a visualization folder, which contains the python script to plot the perplexity values, as well as the 3 log files and the visualization itself.
+To run it again:
+
+    cd visualization
+    python plotting.py
+
+This creates the plot and prints the table of perplexity values to the terminal.
+
 # MT Exercise 3: Layer Normalization for Transformer Models
 
 This repo is a collection of scripts showing how to install [JoeyNMT](https://github.com/joeynmt/joeynmt), download
